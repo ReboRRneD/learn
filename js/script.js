@@ -1,6 +1,12 @@
-let a = 12
-let b = 2
-let c = 3
+let arr = [1, 4 ,8]
+let doneArr = []
 
-console.log(`https://google.com/${(a*b)/c}`)
- 
+
+arr.map((a) => arr.push(a/2))
+
+
+for (var i = 0; i < --arr.length/2; i++) {
+	arr[i].remove()
+}
+
+console.log(arr)
